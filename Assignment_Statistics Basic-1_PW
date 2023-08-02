@@ -1,0 +1,82 @@
+Statistics Basic-1 Assignment
+
+Q1. What is Statistics?
+Ans - It is science of collecting , organising and analysing data
+
+Q2. Define the different types of statistics and give an example of when each type might be used.
+Ans - Descriptive statistics - Consisting of organising and summarizing data using parameters like mean , median , mode or standard deviation. Descriptive stats uses charts ,graphs to represent data.
+Inferential statistics - Used to draw conclusions and inferences from sample data.
+
+Q3. What are the different types of data and how do they differ from each other? Provide an example of
+each type of data.
+Ans -a) Quantitative data - Data is in numerical form. Can be shown in numbers and variables like ratio, percentage, and more.
+Types of Quantitative data - 1. Discrete data - It is a countable data , whole numbers eg. No. of Childern in family
+2. Continuos data - it is a measurable data , eg. Weight , height , temperature
+
+b) Qualitative data - Data is in categorical form. Could be about the behavioral attributes of a person, or thing. 
+Types - 1. Nominal data - Nominal Data is used to label variables without any order or quantitative value. The color of hair can be considered nominal data, as one color can’t be compared with another color.
+2. Ordinal Data - Ordinal data have natural ordering where a number is present in some kind of order by their position on the scale. 
+eg. Ranking in a competition , education level.
+
+Q4. Categorise the following datasets with respect to quantitative and qualitative data types:
+(i) Grading in exam: A+, A, B+, B, C+, C, D, E                                         - Ordinal Qualitative data
+(ii) Colour of mangoes: yellow, green, orange, red                                     - Nominal Qualitative data
+(iii) Height data of a class: [178.9, 179, 179.5, 176, 177.2, 178.3, 175.8,...]        - Continuous Quantitative data
+(iv) Number of mangoes exported by a farm: [500, 600, 478, 672, ...]                   - Discreate Quantitative data
+
+
+Q5. Explain the concept of levels of measurement and give an example of a variable for each level.
+Ans - 
+1. Nominal scale data - Nominal data is a type of data that consists of categories or names that cannot be ordered or ranked
+example - gender (male/female) , blood type (A/B/AB/O).
+
+2. Ordinal scale data - Ordinal data is a type of data that consists of categories that can be ordered or ranked.Difference cannot be measured.
+example - Qualification(PhD , BE  , Masters) , Job position(Manager ,supervisor , employee)
+
+3. Interval scale data - Interval data is a type of data that consists of numerical values where the distance between each value is equal. Rank and order matter. However, there is no true zero point.
+example - Temperature , time
+
+4. Ratio scale data - It has true zero point , difference and ratio are measureable , order and rank matter.
+example - Grades , height.
+
+Q6. Why is it important to understand the level of measurement when analyzing data? Provide an
+example to illustrate your answer.
+Ans.The level at which you measure a variable determines how you can analyze your data. Depending on the level of measurement, you can perform different descriptive statistics to get an overall summary of your data and inferential statistics to see if your results support or refute your hypothesis.
+
+Q7. How nominal data type is different from ordinal data type.
+Ans - Nominal data is defined as data that is used for naming or labeling variables, without any quantitative value.
+Ordinal data is a type of categorical data with an order. The variables in ordinal data are listed in an ordered manner. The ordinal variables are usually numbered, so as to indicate the order of the list.
+Nominal data is a group of non-parametric variables, while Ordinal data is a group of non-parametric ordered variables. Although, they are both non-parametric variables, what differentiates them is the fact that ordinal data is placed into some kind of order by their position.
+
+
+Q8. Which type of plot can be used to display data in terms of range?
+Ans.Histogram. If the groups depicted in a bar chart are actually continuous numeric ranges, we can push the bars together to generate a histogram. Bar lengths in histograms typically correspond to counts of data points, and their patterns demonstrate the distribution of variables in your data.
+
+Q9. Describe the difference between descriptive and inferential statistics. Give an example of each
+type of statistics and explain how they are used.`
+Ans- Descriptive statistics:
+
+1.Describe the features of populations and/or samples
+2.Organize and present data in a purely factual way
+3.Present final results visually, using tables, charts, or graphs
+4.Draw conclusions based on known data
+5.Use measures like central tendency, distribution, and variance
+
+Inferential statistics:
+
+1.Use samples to make generalizations about larger populations
+2.Help us to make estimates and predict future outcomes
+3.Present final results in the form of probabilities
+4.Draw conclusions that go beyond the available data
+5.Use techniques like hypothesis testing, confidence intervals, and regression and correlation analysis
+
+
+Q10. What are some common measures of central tendency and variability used in statistics? Explain
+how each measure can be used to describe a dataset.
+Ans-The 3 measures of central tendency are mean, median, mode 
+
+Mode - The mode is the category with the greatest frequency (or percentage).
+Median - The median is the middlemost number. In other words, it's the number that divides the distribution exactly in half such that half the cases are above the median, and half are below. It's also known as the 50th percentile, and it can be calculated for ordinal and interval/ratio variables.
+Mean - The mean is what people typically refer to as "the average".
+
+
