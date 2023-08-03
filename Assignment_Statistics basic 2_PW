@@ -1,0 +1,89 @@
+Statistics Basic-2
+
+Q1. What are the three measures of central tendency?
+Ans-There are three main measures of central tendency: mode. median. mean.
+
+Q2. What is the difference between the mean, median, and mode? How are they used to measure the
+central tendency of a dataset?
+Ans-The difference between mean, median and mode are: Mean is the average value of the given observations. Median is the middle value of the given observations. Mode is the most repeated value in the given observation.
+
+Q3. Measure the three measures of central tendency for the given height data:
+[178, 177, 176, 177, 178.2, 178, 175, 179, 180, 175, 178.9, 176.2, 177, 172.5, 178, 176.5]
+
+Mean = (178+177+176+177+178.2+178+175+179+180+175+178.9+176.2+177+172.5+178+176.5)/16
+     =2832.1/16
+     =177
+     
+Mode = 178
+     = 177
+     
+Median - (172.5 , 175, 175, 176, 176.2 ,176.5 , 177 , 177 , 177 , 178, 178, 178, 178.2 , 178.9 , 179 , 180)
+        = 177
+        
+Q4. Find the standard deviation for the given data:
+[178,177,176,177,178.2,178,175,179,180,175,178.9,176.2,177,172.5,178,176.5]
+Ans = 1.789
+
+Q5. How are measures of dispersion such as range, variance, and standard deviation used to describe
+the spread of a dataset? Provide an example.
+Ans-
+Range - The range of the data is given as the difference between the maximum and the minimum values of the observations in the data.
+example - 10, 14, 8, 10, 15, 4, 7
+Minimum value in data = 7 
+Maximum Value in the data = 15
+Range = Maximum Value in the data – Minimum value in the data  
+           = 15 – 7 = 8 
+
+Variance - The variance of the data is given by measuring the distance of the observed values from the mean of the distribution.
+Standard Deviation - In the calculation of variance, notice that the units of the variance and the unit of the observations are not the same. So, to remove this problem, we define standard deviation. It is denoted as \sigma
+
+example - data = [-4,-2,0,-2,6,4,6,0,-6,4]
+   
+   np.var(data)
+   -> 16.04
+   np.std(data)
+   ->4.004996878900157
+   
+Q6. What is a Venn diagram?
+Ans - A Venn diagram is an illustration that uses circles to show the relationships among things or finite groups of things. Circles that overlap have a commonality while circles that do not overlap do not share those traits.
+
+
+Q7. For the two given sets A = (2,3,4,5,6,7) & B = (0,2,6,8,10). Find:
+(i) A intersection B  - (2,6)
+Ans - (ii) A ⋃ B - (0,2,3,4,5,6,7,8,10)
+
+
+Q8. What do you understand about skewness in data?
+Ans - Skewness is a measurement of the distortion of symmetrical distribution or asymmetry in a data set. Skewness is demonstrated on a bell curve when data points are not distributed symmetrically to the left and right sides of the median on a bell curve.
+
+Q9. If a data is right skewed then what will be the position of median with respect to mean?
+Ans - When the distribution is skewed to the right, the mean is often greater than the median
+
+Q10. Explain the difference between covariance and correlation. How are these measures used in
+statistical analysis?
+Ans - Covariance is an indicator of the extent to which 2 random variables are dependent on each other. A higher number denotes higher dependency.The value of covariance lies in the range of -∞ and +∞.
+Correlation is a statistical measure that indicates how strongly two variables are related.Correlation is limited to values between the range -1 and +1
+
+Q11. What is the formula for calculating the sample mean? Provide an example calculation for a
+dataset.
+Ans The sample mean formula is: x̄= (xi)/n 
+--Find the sample mean of 60, 57, 109, 50
+Sum of terms = 60 + 57 + 109 + 50 = 276
+total numbers = 4
+mean = (sum of terms)/(number of terms)
+mean = 276/4 = 69
+
+Q12. For a normal distribution data what is the relationship between its measure of central tendency?
+Ans - For normally distributed data, all three measures of central tendency will give you the same answer so they can all be used.
+
+
+Q13. How is covariance different from correlation?
+Ans - Covariance indicates the direction of the linear relationship between variables while correlation measures both the strength and direction of the linear relationship between two variables.
+
+Q14. How do outliers affect measures of central tendency and dispersion? Provide an example.
+Ans - Outliers are numbers in a data set that are vastly larger or smaller than the other values in the set. Mean, median and mode are measures of central tendency. Mean is the only measure of central tendency that is always affected by an outlier.
+example - 0, 70, 70, 80, 85, 90, 90, 90, 95, 100
+Outlier: 0
+Men: (0+70 +70 +80 +85 +90 +90 +90 +95 +100)/10 = 77
+Median = (85+90)/2 =  87.5
+Mode = 90
