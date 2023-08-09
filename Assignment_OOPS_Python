@@ -1,0 +1,52 @@
+Q1. Explain Class and Object with respect to Object-Oriented Programming. Give a suitable example.
+ANS - Python Objects - An object is called an instance of a class. objectName = ClassName()
+example - class Bike:
+    name = ""
+    gear = 0
+
+# create objects of class
+bike1 = Bike()
+
+Class - A class is a user-defined blueprint or prototype from which objects are created. Classes provide a means of bundling data and functionality together.
+class ClassName:
+    # Statement
+
+Q2. Name the four pillars of OOPs.
+ANS - The four pillars of OOPs (object-oriented programming) are data abstraction, encapsulation, inheritance, and polymorphism
+Inheritance - In Python it is possible to create an object that inherits the methods and properties of another object. This is called inheritance. 
+Polymorphism - Polymorphism simply means 'many forms'. In Python this means that you can have one function or object that can be used in different ways. 
+Encapsulation - Encapsulation is the process of making data private by wrapping data and its methods in a 'capsule' or unit, 
+so that it can not be accessed or modified outside of that unit. This is achieved by making variables inside a class private.
+Abstraction - The fourth pillar of OOP is Abstraction. Abstraction is about keeping the process simple by hiding unnecessary details from the user
+
+Q3. Explain why the __init__() function is used. Give a suitable example.
+ANS - The __init__ method lets the class initialize the object's attributes and serves no other purpose. It is only used within classes.
+example - 
+class Person:
+ 
+    # init method or constructor
+    def __init__(self, name):
+        self.name = name
+ 
+    # Sample Method
+    def say_hi(self):
+        print('Hello, my name is', self.name)
+ 
+ 
+p = Person('Nisha')
+p.say_hi()
+
+Q4. Why self is used in OOPs?
+ANS - self represents the instance of the class. By using the “self” we can access the attributes and methods of the class in python. 
+It binds the attributes with the given arguments. The reason you need to use self. is because Python does not use the @ syntax to refer to instance attributes.
+
+Q5. What is inheritance? Give an example for each type of inheritance.
+Ans - Inheritance - In Python it is possible to create an object that inherits the methods and properties of another object. This is called inheritance. 
+1. Single Inheritance: Single inheritance enables a derived class to inherit properties from a single parent class, 
+    thus enabling code reusability and the addition of new features to existing code.
+2. Multiple Inheritance: When a class can be derived from more than one base class this type of inheritance is called multiple inheritances. 
+   In multiple inheritances, all the features of the base classes are inherited into the derived class. 
+3. Multilevel Inheritance : In multilevel inheritance, features of the base class and the derived class are further inherited into the new derived class. 
+   This is similar to a relationship representing a child and a grandfather. 
+4. Hierarchical Inheritance: When more than one derived class are created from a single base this type of inheritance is called hierarchical inheritance. 
+   In this program, we have a parent (base) class and two child (derived) classes.
