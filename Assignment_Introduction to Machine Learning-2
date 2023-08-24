@@ -1,0 +1,70 @@
+Q1: Define overfitting and underfitting in machine learning. What are the consequences of each, and how
+can they be mitigated?
+
+Ans - Overfitting occurs when our machine learning model tries to cover all the data points or more than the required data points present in the given dataset. Because of this, the model starts caching noise and inaccurate values present in the dataset, and all these factors reduce the efficiency and accuracy of the model. The overfitted model has low bias and high variance.
+To avoid overfitting :
+a. Cross-Validation
+b. Training with more data
+c. Removing features
+d. Early stopping the training
+e. Regularization
+f. Ensembling
+
+Underfitting occurs when our machine learning model is not able to capture the underlying trend of the data. To avoid the overfitting in the model, the fed of training data can be stopped at an early stage, due to which the model may not learn enough from the training data. As a result, it may fail to find the best fit of the dominant trend in the data.An underfitted model has high bias and low variance.
+To avoid underfitting:
+a. By increasing the training time of the model.
+b. By increasing the number of features.
+
+Q2: How can we reduce overfitting? Explain in brief.
+
+Ans : 1.Increase training data.
+2. Reduce model complexity.
+3. Early stopping during the training phase (have an eye over the loss over the training period as soon as loss begins to increase stop training).
+4. Ridge Regularization and Lasso Regularization.
+5. Use dropout for neural networks to tackle overfitting.
+
+
+Q3: Explain underfitting. List scenarios where underfitting can occur in ML.
+
+Ans: A statistical model or a machine learning algorithm is said to have underfitting when it cannot capture the underlying trend of the data, i.e., it only performs well on training data but performs poorly on testing data. (It’s just like trying to fit undersized pants!) Underfitting destroys the accuracy of our machine-learning model. Its occurrence simply means that our model or the algorithm does not fit the data well enough. It usually happens when we have less data to build an accurate model and also when we try to build a linear model with fewer non-linear data. In such cases, the rules of the machine learning model are too easy and flexible to be applied to such minimal data, and therefore the model will probably make a lot of wrong predictions. Underfitting can be avoided by using more data and also reducing the features by feature selection. 
+
+Reasons : 1. The size of the training dataset used is not enough.
+2. The model is too simple.
+3. Training data is not cleaned and also contains noise in it.
+
+
+Q4: Explain the bias-variance tradeoff in machine learning. What is the relationship between bias and
+variance, and how do they affect model performance?
+
+Ans: Bias represents the error due to overly simplistic assumptions in the learning algorithm. High bias can cause the model to underfit the data, leading to poor performance on both training and unseen data. Variance, on the other hand, reflects the model's sensitivity to small fluctuations in the training data.
+If the algorithm is too simple (hypothesis with linear equation) then it may be on high bias and low variance condition and thus is error-prone. If algorithms fit too complex (hypothesis with high degree equation) then it may be on high variance and low bias. In the latter condition, the new entries will not perform well. Well, there is something between both of these conditions, known as a Trade-off or Bias Variance Trade-off. This tradeoff in complexity is why there is a tradeoff between bias and variance. An algorithm can’t be more complex and less complex at the same time. For the graph, the perfect tradeoff will be like this.
+
+
+Q5: Discuss some common methods for detecting overfitting and underfitting in machine learning models.
+How can you determine whether your model is overfitting or underfitting?
+
+Ans: We can determine whether a predictive model is underfitting or overfitting the training data by looking at the prediction error on the training data and the evaluation data. Your model is underfitting the training data when the model performs poorly on the training data.
+
+
+Q6: Compare and contrast bias and variance in machine learning. What are some examples of high bias
+and high variance models, and how do they differ in terms of their performance?
+
+Ans: Bias - 1. When an algorithm is employed in a machine learning model and it does not fit well, a phenomenon known as bias can develop. Bias arises in several situations.
+2. The disparity between the values that were predicted and the values that were actually observed is referred to as bias.
+3. The model is incapable of locating patterns in the dataset that it was trained on, and it produces inaccurate results for both seen and unseen data.
+
+Variance - 1.The term "variance" refers to the degree of change that may be expected in the estimation of the target function as a result of using multiple sets of training data.
+2. A random variable's variance is a measure of how much it varies from the value that was predicted for it.
+3. The model recognizes the majority of the dataset's patterns and can even learn from the noise or data that isn't vital to its operation.
+Examples of high-bias machine learning algorithms include: Linear Regression, Linear Discriminant Analysis and Logistic Regression.
+
+
+Q7: What is regularization in machine learning, and how can it be used to prevent overfitting? Describe
+some common regularization techniques and how they work.
+
+Ans: Regularization is a technique that adds information to a model to prevent the occurrence of overfitting. It is a type of regression that minimizes the coefficient estimates to zero to reduce the capacity (size) of a model. In this context, the reduction of the capacity of a model involves the removal of extra weights
+Using Regularization, we can fit our machine learning model appropriately on a given test set and hence reduce the errors in it.
+There are mainly two types of regularization techniques, which are given below:
+
+Ridge Regression
+Lasso Regression
